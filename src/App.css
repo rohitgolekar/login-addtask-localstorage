@@ -1,0 +1,41 @@
+.login, .registration, .Addtask, .tasklist {
+    margin-top: 50px;
+    padding: 0px !important;
+}
+
+.login .row form {
+    padding: 20px 0px;
+}
+
+.login .row, .registration .row, .Addtask .row, .tasklist .row {
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 18px 3px darkgrey;
+    border-radius: 10px;
+}
+
+.Addtask .row form {
+    background: lightslategrey;
+}
+
+.login .row .col-md-4, .registration .row .col-md-4, .Addtask .row .col-md-4, .tasklist .row .col-md-4 {
+    padding: 10px;
+    background: lightslategrey;
+    color: #ffffff;
+    display: inline-block !important;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.dropdown {
+    position: absolute !important;
+    right: 108px !important;
+}
+
+.dropdown-menu {
+    top: 40px;
+}
